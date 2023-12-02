@@ -1,0 +1,47 @@
+/* Add this to your CSS file */
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #343a40; /* Dark background color */
+  }
+  
+  /* Brand/logo styling */
+  .navbar-brand {
+    color: #ffffff; /* White text color */
+    font-size: 1.5rem; /* Adjust the font size as needed */
+  }
+  
+  /* Navbar links styling */
+  .navbar-nav .nav-link {
+    color: #ffffff; /* White text color */
+    margin-right: 15px; /* Adjust the spacing between links */
+  }
+  
+  /* Navbar links hover effect */
+  .navbar-nav .nav-link:hover {
+    color: #28a745; /* Green color on hover */
+  }
+  
+  /* Toggle button styling */
+  .navbar-toggler-icon {
+    background-color: #ffffff; /* White color for the toggle icon */
+  }
+  
+  /* Container styling */
+  .container {
+    padding-left: 15px; /* Adjust padding as needed */
+    padding-right: 15px; /* Adjust padding as needed */
+  }
+  
+  /* Responsive breakpoint for collapsing the navbar */
+  @media (max-width: 767px) {
+    /* Navbar links in mobile view */
+    .navbar-nav .nav-link {
+      margin-right: 0; /* Remove margin for better spacing in mobile view */
+    }
+  }
+  
